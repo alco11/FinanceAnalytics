@@ -54,6 +54,6 @@ model = sm.OLS(y, x).fit()
 print_model = model.summary()
 print(print_model)
 
-fPrice = ((len(y)+1)*model.params[1])+model.params[0]
+fPrice = round(((len(y)+1)*model.params[1])+model.params[0],2)
 
-print("Stock should be: $"+str(int(fPrice)))
+print("Stock should be: $"+str(fPrice)
