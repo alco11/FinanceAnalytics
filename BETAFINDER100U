@@ -13,7 +13,7 @@ from sklearn.linear_model import LinearRegression
 
 """Get Free API key at https://www.alphavantage.co/support/#api-key"""
 """Make sure you are entering correct stock symbol (Example: Apple = AAPL)"""
-"""100 data point beta"""
+"""100 data point beta. App uses OLS regerssion to find coefficient"""
 
 a= input("Ticker?")
 ab = input("API Key")
