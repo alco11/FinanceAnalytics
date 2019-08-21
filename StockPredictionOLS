@@ -1,14 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Aug  8 02:23:59 2019
-
-@author: alejandro
-"""
-
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
 Created on Thu Aug  8 02:09:19 2019
 
 @author: alejandro
@@ -21,7 +13,7 @@ import pandas as pd
 import statsmodels.api as sm
 import numpy as ny
 
-
+"""App that runs OLS regression in order to predict closing price of stock. App uses 100 most recent data points"""
 """Get Free API key at https://www.alphavantage.co/support/#api-key"""
 """Make sure you are entering correct stock symbol (Example: Apple = AAPL)"""
 
